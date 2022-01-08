@@ -1,0 +1,90 @@
+
+.professional {
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+  }
+  #home-btn{
+      color: white;
+      position: fixed;
+      left: 10%;
+      bottom: 10%;
+      z-index: 10;
+      font-size: 50px;
+      border: none;
+      background:none;
+      cursor: pointer;
+      opacity: 0.6;
+  }
+  .content{
+      display:flex;
+      margin-bottom: 50px;
+     
+  }
+  .professional h3{
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: white;
+      text-transform: uppercase;
+text-align: center;
+margin: 100px auto;
+  }
+  .contentLeft{
+      width: 50%;
+      background-color:#4682B4;
+      justify-content: center;
+      align-items: center;
+      padding: 100px;
+  }
+  .contentRight{
+      width: 50%;
+      background-color: darkgray;
+      justify-content: center;
+      align-items: center;
+      padding: 80px;
+  }
+ 
+  .professional .myWorking{
+      text-align: center;
+     margin: auto;
+  }
+  .professional video{
+      border: 20px solid black;
+      border-radius: 10px;
+      width: 100%;
+  }
+  .percentages{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  }
+  .professional  ul{
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .professional  ul li{
+    padding: 8px;
+  }
+  .professional .number{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .professional .skill{
+    display: flex;
+    padding: 8px;
+  }
+  .professional .percentage{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 0 10px 10px 0;
+    transition: all 1s linear;
+   display:block;
+  }
+  
+  

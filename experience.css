@@ -1,0 +1,105 @@
+.experience{
+    max-width: 1200px;
+    margin: auto;
+    overflow:hidden;
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+img[src="images/code.png"]{
+    position: absolute;
+    top:-100px;
+    left:0;
+    z-index:-1;
+opacity:0.4;
+width:100%;
+transform: rotate(90deg);
+}
+.experience h3{
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+text-align: center;
+margin: 0 auto;
+padding-top: 100px;
+text-transform: uppercase;
+}
+.experience .terms{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    margin: 300px 0 0 0;
+    justify-content: center; 
+}
+.term{
+    width: 30%;
+    padding: 30px 0;
+    position: relative;
+    transform: translateX(1500px);
+    transition: all 1s ease-in-out;
+    
+}
+#term02, #term05{
+    transition-delay:0.2s; 
+}
+#term03, #term06{
+    transition-delay:0.4s; 
+}
+.term.active{
+    transform: translateX(0);
+}
+.term .title{
+    padding: 10px 0;
+    border: 1px solid #4682B4;
+    font-weight: 500;
+    font-size: 20px;
+    color: white; 
+    cursor: pointer;   
+}
+
+.test{
+    position: relative;
+}
+.experience .background{
+    background-color: #4682B4;
+    width: 0%;
+    position: absolute;
+    top:0;
+    left:10%;
+    z-index:-1;
+    transition: all 0.7s linear;
+    color: #4682B4;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.term:hover .background{
+    width:90%;
+}
+
+
+.term .termCont{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+.term .termDetail{
+    font-weight: 300;
+    font-size: 17px;
+    display:none;
+    position: absolute;
+    bottom: 90%;
+    left:0;
+    width: 90%;
+    text-align: justify;
+    padding: 25px;
+    background:rgba(255, 255, 255, 0.2); 
+    transition: all 0.7s ease;
+}
+.term:hover .termDetail{
+    display:block;
+color: white;
+}
+
